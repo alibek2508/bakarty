@@ -59,4 +59,5 @@ li:last-child {
 .section-about {
   height: 640px;
   background: url(../img/01-Картинка-фона.jpg) center / cover, no-repeat;
+  margin-bottom: 20px;
 }
