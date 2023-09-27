@@ -31,7 +31,32 @@
 body {
   background-color: #ffe2b0;
 }
-
+header {
+  margin-bottom: 20px;
+}
 .logo {
   text-align: center;
+}
+nav {
+  margin-bottom: 20px;
+}
+li {
+  display: inline;
+  margin-right: 100px;
+}
+li:last-child {
+  margin-right: 0px;
+}
+.nav-menu {
+  text-align: center;
+}
+.nav-menu__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 18px;
+}
+.section-about {
+  height: 640px;
+  background: url(../img/01-Картинка-фона.jpg) center / cover, no-repeat;
 }
