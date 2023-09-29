@@ -36,7 +36,6 @@
 }
 body {
   background-color: #ffe2b0;
-  padding-bottom: 40px;
 }
 header {
   margin-bottom: 20px;
@@ -143,4 +142,8 @@ main {
 .line {
   width: 1024px;
   margin-bottom: 20px;
+  border-top: 1px solid #999999;
+}
+footer {
+  height: 120px;
 }
