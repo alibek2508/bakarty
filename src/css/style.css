@@ -31,9 +31,12 @@
 *::after,
 *::before {
   box-sizing: border-box;
+  margin: 0 auto;
+  color: #000;
 }
 body {
   background-color: #ffe2b0;
+  padding-bottom: 40px;
 }
 header {
   margin-bottom: 20px;
@@ -57,7 +60,6 @@ li:last-child {
 .nav-menu__link {
   text-decoration: none;
   text-transform: uppercase;
-  color: black;
   font-size: 18px;
   font-family: "Roboto Bold";
 }
@@ -105,7 +107,6 @@ li:last-child {
   text-align: center;
   margin-bottom: 20px;
 }
-
 .section-description__img {
   margin-right: 76px;
 }
@@ -115,7 +116,6 @@ li:last-child {
 .section-description__title-text {
   font-family: "Philosopher Regular";
   font-size: 96px;
-  color: #000;
 }
 .section-description__text {
   width: 1000px;
@@ -124,7 +124,6 @@ li:last-child {
   padding-top: 10px;
   font-family: "Roboto Regular";
   font-size: 18px;
-  color: #000;
 }
 .red {
   color: #f15b40;
@@ -136,6 +135,12 @@ li:last-child {
   font-family: "Philosopher Regular";
   font-size: 36px;
   text-transform: uppercase;
-  color: #000;
+  margin-bottom: 20px;
+}
+main {
+  margin-bottom: 20px;
+}
+.line {
+  width: 1024px;
   margin-bottom: 20px;
 }
