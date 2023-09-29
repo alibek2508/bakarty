@@ -112,3 +112,30 @@ li:last-child {
 .section-description__img:last-child {
   margin-right: 0;
 }
+.section-description__title-text {
+  font-family: "Philosopher Regular";
+  font-size: 96px;
+  color: #000;
+}
+.section-description__text {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: justify;
+  padding-top: 10px;
+  font-family: "Roboto Regular";
+  font-size: 18px;
+  color: #000;
+}
+.red {
+  color: #f15b40;
+}
+.section-map {
+  text-align: center;
+}
+.section-map__title {
+  font-family: "Philosopher Regular";
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 20px;
+}
